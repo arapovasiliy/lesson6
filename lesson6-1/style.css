@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #028B8B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper{
+    height: 50vh;
+    width: 45vw;
+    background-color: #FFFFFF;
+    border-radius:  20px;
+}
+
+.wrapper section:nth-child(1){
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9F3F3;
+    height: 20%;
+    border-radius: 20px 20px 0 0; /*Застосував таку маячню через те що Хром забирає бордери з wrapper*/
+}
+.wrapper section:nth-child(1) h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+}
+.wrapper>form>section{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section>input[type="submit"]
+ {
+    display:  block;
+    background-color: #E9F3F3;
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 35px;
+    width: 100px;
+}
