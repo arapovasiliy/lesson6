@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+
+}
+
+body > div > div {
+    width: 70vw;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+div > section.img-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 20px 0;
+}
+
+img {
+    width: 75%;
+    height: 15%;
+    /*object-fit: cover;*/
+}
+
+/* --------------------------------------- Inputs --------------------------------------- */
+div > section.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 70vw;
+    margin-bottom: 40px;
+}
+
+
+input::placeholder {
+    align-items: center;
+    text-align: left;
+    font-size: 46px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 70%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+input[type=text] {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+input[type=submit] {
+    width: 70%;
+    height: 75px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #68B5FA;
+    color: white;
+    font-size: 46px;
+    /*font-size: 26px;*/
+    margin-bottom: 40px;
+}
+
+/* ------------------------------------------------------------------------------ */
+input[type=submit] + p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    /*font-size: 26px;*/
+    color: grey;
+    margin-bottom: 60px;
+}
+input[type=submit] + p + a{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    /*font-size: 26px;*/
+    text-decoration: none;
+    color: #375185;
+    margin-bottom: 60px;
+}
+input[type=submit] + p + a > img{
+    width: 50px;
+    padding-right: 10px;
+}
+
+#forget_pass{
+    font-size: 46px;
+    /*font-size: 26px;*/
+    color: #375185;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+/* ------------------------------------------------------------------------------ */
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 40px 0 40px 0;
+    font-size: 46px;
+    /*font-size: 26px;*/
+
+}
+.register>p>a{
+    text-decoration: none;
+    color: #68B5FA;
+}

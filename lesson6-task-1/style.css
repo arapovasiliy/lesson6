@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-1>ul>li:nth-child(2n){
+    color: pink;
+}
+.list-2>ul>li:nth-child(1n){
+    font-size: 22px;
+}
+.list-3>ul>li:nth-child(2n+4)::after{
+    content: '!';
+}
+.list-4>ul>li:last-child{
+    color: purple;
+}
+.list-5>ul>li:first-letter{
+    font-size: 30px;
+    color: red;
+}
